@@ -567,7 +567,7 @@ builderTools.legend.PaintBrush.Page2.MaskConfigDescription = Cliquez sur l'icôn
 builderTools.legend.PaintBrush.Page3.Title = Pinceaux scriptables / Placement aérien
 builderTools.legend.PaintBrush.Page3.Description = Pinceaux scriptables\n\
 Vous pouvez créer une logique de placement de blocs personnalisée à l'aide de commandes et d'éléments tels que « River Brush », « Mountain Brush » et tout autre pinceau que vous pouvez imaginer !
-builderTools.legend.PaintBrush.Page3.CreateBrushesDescription = Pour créer vos propres pinceaux, jetez un œil aux exemples fournis dans le répertoire Assets/MacroCommands/Brushes/ des assets. Vous pouvez utiliser la commande /help du jeu pour en savoir plus sur chaque opération de configuration de pinceau disponible. Vous devrez également créer un élément Pinceau ; recherchez dans le répertoire Assets/Server/Item/Items/EditorTool/ScriptedBrushes/ des exemples de ces éléments.
+builderTools.legend.PaintBrush.Page3.CreateBrushesDescription = Pour créer vos propres pinceaux, jetez un oeil aux exemples fournis dans le répertoire Assets/MacroCommands/Brushes/ des assets. Vous pouvez utiliser la commande /help du jeu pour en savoir plus sur chaque opération de configuration de pinceau disponible. Vous devrez également créer un élément Pinceau ; recherchez dans le répertoire Assets/Server/Item/Items/EditorTool/ScriptedBrushes/ des exemples de ces éléments.
 builderTools.legend.PaintBrush.Page3.TestingBrushesTitle = Pinceaux de développement de tests
 builderTools.legend.PaintBrush.Page3.TestingBrushesDescription = Utilisez «/sb load» pour ouvrir une interface utilisateur et parcourir tous les pinceaux scriptés disponibles, ou «/sb load <name>» pour charger directement un pinceau spécifique. Cela vous permet de tester les pinceaux sans avoir besoin de créer un élément au préalable. Utilisez '/sb clear' pour désactiver une fois terminé.
 
@@ -637,7 +637,7 @@ builderTools.legend.MachinimaTool.Page4.EditFrameTime = Changer le moment où ce
 builderTools.legend.MachinimaTool.Page4.AdjustFrameTime = Décaler le timing des images clés plus tôt ou plus tard
 
 builderTools.legend.MachinimaTool.Page5.Title = Interactions avec la souris
-builderTools.legend.MachinimaTool.Page5.Description = Cliquez sur les nœuds d'images clés dans le monde pour interagir :
+builderTools.legend.MachinimaTool.Page5.Description = Cliquez sur les noeuds d'images clés dans le monde pour interagir :
 builderTools.legend.MachinimaTool.Page5.SelectKeyframe = Sélectionnez l’image clé (passez en mode Free Move)
 builderTools.legend.MachinimaTool.Page5.JumpToKeyframe = Définir comme actif et passer au cadre
 builderTools.legend.MachinimaTool.Page5.GizmoTitle = Contrôles des gadgets :
@@ -661,7 +661,7 @@ builderTools.legend.MachinimaTool.Page6.SceneModeDesc = Déplace l’origine ent
 builderTools.legend.MachinimaTool.Page7.Title = Affichage et origine
 builderTools.legend.MachinimaTool.Page7.DisplayTitle = Basculements d'affichage :
 builderTools.legend.MachinimaTool.Page7.ToggleDisplay = Basculer l'affichage de la superposition de l'éditeur
-builderTools.legend.MachinimaTool.Page7.TogglePathNodes = Basculer la visibilité du nœud de chemin
+builderTools.legend.MachinimaTool.Page7.TogglePathNodes = Basculer la visibilité du noeud de chemin
 builderTools.legend.MachinimaTool.Page7.ToggleCamera = Activer/désactiver l'acteur de la caméra
 builderTools.legend.MachinimaTool.Page7.ToggleFrustum = Basculer l'affichage du tronc de la caméra
 builderTools.legend.MachinimaTool.Page7.OriginTitle = Commandes d'origine de la scène :
@@ -929,9 +929,9 @@ contentCreation.navigation.assetEditor.tooltipDesc = Cela lance un programme ext
 contentCreation.navigation.blockbench = Editeur de modèles
 contentCreation.navigation.blockbench.tooltipTitle = Lancez l'application Blockbench (éditeur de modèles)
 contentCreation.navigation.blockbench.tooltipDesc = Créez vos propres modèles et animations pour Hytale.
-contentCreation.navigation.nodeeditor = Éditeur de nœud d'actif
+contentCreation.navigation.nodeeditor = Éditeur de noeud d'actif
 contentCreation.navigation.nodeeditor.tooltipTitle = Lancer l'application Asset Node Editor
-contentCreation.navigation.nodeeditor.tooltipDesc = Modifiez les ressources à l'aide d'un éditeur de nœud de script visuel.
+contentCreation.navigation.nodeeditor.tooltipDesc = Modifiez les ressources à l'aide d'un éditeur de noeud de script visuel.
 contentCreation.navigation.machinima = Machinima
 contentCreation.navigation.machinima.tooltipTitle = Ouvrir l'éditeur Machinima
 contentCreation.navigation.machinima.tooltipDesc = Créez vos propres films dans Hytale à l'aide de l'éditeur Machinima.
@@ -942,7 +942,7 @@ contentCreation.navigation.buildertools.tooltipDesc = Outils d'édition de blocs
 \n\ Modifiez les blocs de votre monde grâce aux outils d'édition de blocs disponibles dans l'onglet Outils de l'inventaire créatif.
 
 contentCreation.modal.nodeeditor.nonsupported.title = Plateforme non prise en charge
-contentCreation.modal.nodeeditor.nonsupported.text = L'éditeur de nœuds n'est actuellement pas pris en charge sur votre plate-forme.\n\nPour le moment, nous ne prenons en charge que Windows et travaillons à introduire cette fonctionnalité sur toutes les plates-formes PC.
+contentCreation.modal.nodeeditor.nonsupported.text = L'éditeur de noeuds n'est actuellement pas pris en charge sur votre plate-forme.\n\nPour le moment, nous ne prenons en charge que Windows et travaillons à introduire cette fonctionnalité sur toutes les plates-formes PC.
 
 contentCreation.navigation.worldtools = Monde
 contentCreation.navigation.worldtools.prefabEditor = Éditeur de préfabriqués
@@ -2260,3 +2260,4 @@ feedback.success.submitMore = Soumettre plus
 
 
 bugReportButton.tooltip = Signaler un bug ou faire un commentaire
+
