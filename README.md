@@ -1,6 +1,7 @@
 # 🇫🇷 Patch Français (FR) pour **Hytale**
 
 Bienvenue sur un dépôt NON-officiel du **Patch Français pour Hytale** ! 🎉
+
 Ce projet a pour objectif de proposer une **traduction française** du jeu **Hytale**, aussi bien **côté client** que **côté serveur**, afin d’offrir une expérience plus accessible aux joueurs francophones.
 
 ---
