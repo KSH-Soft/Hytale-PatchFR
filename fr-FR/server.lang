@@ -3283,7 +3283,7 @@ customUI.respawnName = Nom de réapparition
 customUI.respawnNameTooLong = Le nom de Respawn est trop long, la longueur maximale est de {maxLength} caractères !
 customUI.confirm = Confirmer
 customUI.cancel = Annuler
-customUI.back = Dos
+customUI.back = Retour
 customUI.dropdown.noItems = (Aucun article)
 customUI.prefabEditorSettings.title = Paramètres de l'éditeur préfabriqué
 customUI.prefabEditorSettings.savedConfigs = Configurations enregistrées :
@@ -4445,7 +4445,7 @@ items.Ingredient_Hide_Dark.name = Peau sombre
 items.Ingredient_Hide_Dark.description = [TMP] Peut être transformé en <item is="Ingredient_Leather_Dark"/> dans un <item is="Bench_Tannery"/>.
 items.Ingredient_Hide_Heavy.name = Peau lourde
 items.Ingredient_Hide_Heavy.description = [TMP] Peut être transformé en <item is="Ingredient_Leather_Heavy"/> dans un <item is="Bench_Tannery"/>.
-items.Ingredient_Hide_Light.name = Cacher la lumière
+items.Ingredient_Hide_Light.name = Peau légère
 items.Ingredient_Hide_Light.description = [TMP] Peut être transformé en <item is="Ingredient_Leather_Light"/> dans un <item is="Bench_Tannery"/>.
 items.Ingredient_Hide_Medium.name = Peau moyenne
 items.Ingredient_Hide_Medium.description = [TMP] Peut être transformé en <item is="Ingredient_Leather_Medium"/> dans un <item is="Bench_Tannery"/>.
@@ -4460,7 +4460,7 @@ items.Ingredient_Hide_Storm.description = [TMP] Peut être transformé en <item 
 items.Ingredient_Leather_Dark.name = Cuir foncé
 items.Ingredient_Leather_Heavy.name = Cuir épais
 items.Ingredient_Leather_Heavy.description = Fabriqué à partir des peaux épaisses de grands prédateurs.\n\n<i>Chaque chasseur aspire à abattre des créatures dont on parle uniquement dans les mythes. À l'exception de quelques-uns qui se sont regroupés à l'époque des héros, la plupart doivent plutôt se contenter d'ours, de loups et d'autres prédateurs suprêmes.</i>
-items.Ingredient_Leather_Light.name = Cuir clair
+items.Ingredient_Leather_Light.name = Cuir léger
 items.Ingredient_Leather_Light.description = Fabriqué à partir de peaux de proies communes trouvées dans la nature.
 items.Ingredient_Leather_Medium.name = Cuir moyen
 items.Ingredient_Leather_Medium.description = Fabriqué à partir de peaux résistantes de menaces de taille moyenne et de bêtes blindées.
@@ -7773,7 +7773,7 @@ ui.slotName.head = Tête
 ui.slotName.chest = Poitrine
 ui.slotName.hands = Mains
 ui.slotName.legs = Jambes
-ui.slotName.back = Dos
+ui.slotName.back = Retour
 ui.slotName.trinket = Bibelot
 
 # === universe ===
@@ -7826,5 +7826,6 @@ universe.backup.error = Une erreur s'est produite lors de la création d'une sau
 
 world.spawn.notSet = Le monde '{worldName}' n'a pas de point d'apparition défini !
 world.notFound = Impossible de trouver le monde '{worldName}' !
+
 
 
