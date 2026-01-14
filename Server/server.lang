@@ -4000,7 +4000,7 @@ items.Food_Candy_Cane.name = Canne à sucre
 items.Food_Cheese.name = Fromage
 items.Food_Chicken_Raw.name = Poulet cru
 items.Ingredient_Dough.name = Pâte
-items.Food_Egg.name = oeuf
+items.Food_Egg.name = Oeuf
 items.Food_Fish_Grilled.name = Poisson Grillé
 items.Food_Fish_Raw.name = Poisson cru
 items.Ingredient_Flour.name = Farine
@@ -7826,4 +7826,5 @@ universe.backup.error = Une erreur s'est produite lors de la création d'une sau
 
 world.spawn.notSet = Le monde '{worldName}' n'a pas de point d'apparition défini !
 world.notFound = Impossible de trouver le monde '{worldName}' !
+
 
