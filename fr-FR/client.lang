@@ -1103,7 +1103,7 @@ general.button.saveChanges = Enregistrer les modifications
 general.button.discardChanges = Ignorer les modifications
 general.button.resetDefaults = Réinitialiser aux valeurs par défaut
 general.button.close = Fermer
-general.button.back = Dos
+general.button.back = Retour
 general.button.add = Ajouter
 general.button.delete = Supprimer
 general.button.remove = Retirer
@@ -2260,4 +2260,5 @@ feedback.success.submitMore = Soumettre plus
 
 
 bugReportButton.tooltip = Signaler un bug ou faire un commentaire
+
 
