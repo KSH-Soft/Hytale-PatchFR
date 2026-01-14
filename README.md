@@ -1,4 +1,4 @@
-# [TMP] 🇫🇷 Patch Français (FR) pour **Hytale**
+# 🇫🇷 Patch Français (FR) pour **Hytale**
 
 Bienvenue sur un dépôt NON-officiel du **Patch Français pour Hytale** ! 🎉
 
