@@ -37,7 +37,7 @@ C:\Users\%USERNAME%\AppData\Roaming\Hytale\install\release\package\game\latest\C
 ✅ Le patch est maintenant installée !
 
 
-### ⚙️ Installation Automatique (WIP)
+### ⚙️ Installation Automatique
 
 Un script est disponible pour **télécharger et installer** la dernière version du Patch FR **automatiquement**.
 A Noter: Le script téléchargera la dernière version du Patch FR à chaque lancement pour toujours être à jour !
