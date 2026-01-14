@@ -1,94 +1,57 @@
-# 🇫🇷 Patch Français (FR) pour **Hytale**
+# [TMP] 🇫🇷 Patch Français (FR) pour **Hytale**
 
 Bienvenue sur un dépôt NON-officiel du **Patch Français pour Hytale** ! 🎉
 
 Ce projet a pour objectif de proposer une **traduction française** du jeu **Hytale**, aussi bien **côté client** que **côté serveur**, afin d’offrir une expérience plus accessible aux joueurs francophones.
+(Ce projet ne sera donc plus maintenu dès que la traduction officielle sera présente dans le jeu.)
 
 ---
 
 ## 📦 Contenu du dépôt
 
-Ce dépôt contient **deux dossiers principaux** :
+Ce dépôt contient le dossier **`fr-FR`**:
 
 ```
-📁 fr-FR
-📁 Server
+📄 server.lang
+📄 client.lang
+📄 meta.lang
 ```
 
-Chacun de ces dossiers correspond à une partie bien précise du jeu. Merci de suivre attentivement les instructions ci-dessous pour une installation correcte.
+## 🖥️ Installation 
 
----
-
-## 🖥️ Installation – Partie CLIENT (Jeu)
-
-### 📁 Dossier `fr-FR`
+### 📁 Installation Manuel
 
 Ce dossier contient les fichiers de langue française utilisés par **le client du jeu**.
+Il vous fraudra donc télécharger la dernière version du dépot et **manipuler des fichiers dans vos dossier du jeu**.
 
-### 🔧 Étapes d’installation
+#### 📄 Étapes d’installation
 
 1. **Fermez Hytale** s’il est en cours d’exécution
-2. Copiez le dossier **`fr-FR`** présent dans ce dépôt
-3. Collez-le à l’emplacement suivant :
+2. Copiez le dossier **les trois fichiers** présent dans ce dépôt
+3. Collez-les à l’emplacement suivant :
 
 ```text
-C:\Users\%USERNAME%\AppData\Roaming\Hytale\install\release\package\game\latest\Client\Data\Shared\Language
+C:\Users\%USERNAME%\AppData\Roaming\Hytale\install\release\package\game\latest\Client\Data\Shared\Language\fr-FR
 ```
 
-4. Si un dossier `fr-FR` existe déjà, **remplacez-le**
+✅ Le patch est maintenant installée !
 
-✅ La partie client du patch est maintenant installée !
+
+### ⚙️ Installation Automatique (WIP)
+
+Un script est disponible pour **télécharger et installer** la dernière version du Patch FR **automatiquement**.
+A Noter: Le script téléchargera la dernière version du Patch FR à chaque lancement pour toujours être à jour !
+
+#### 🔧 Étapes d’installation
+
+1. **Fermez Hytale** s’il est en cours d’exécution
+2. **Téléchargez** le script `HytalePatchFR_ByKSH-Soft.bat`
+3. **Lancez** le script, et suivez les étapes
+
+✅ Le patch est maintenant installée !
 
 ---
 
-## 🧩 Installation – Partie SERVEUR
-
-⚠️ Cette partie est **un peu plus technique**, mais reste simple si vous suivez les étapes pas à pas.
-
-### 📁 Dossier `Server`
-
-Dans ce dossier se trouve un fichier important :
-
-```
-server.lang
-```
-
-Ce fichier doit être intégré **à l’intérieur d’un fichier ZIP existant** nommé **`Assets.zip`**.
-
----
-
-### 📍 Où se trouve `Assets.zip` ?
-
-Selon votre configuration, il peut se trouver :
-
-#### 🔹 Jeu en local
-
-```text
-C:\Users\%USERNAME%\AppData\Roaming\Hytale\install\release\package\game\latest\Assets.zip
-```
-
-#### 🔹 Serveur dédié
-
-* À côté du dossier du serveur
-* Ou directement **dans** le dossier du serveur
-
----
-
-### 🔧 Étapes d’installation serveur
-
-1. Ouvrez le fichier **`Assets.zip`** (avec 7-Zip, WinRAR, etc.)
-2. Naviguez à l’intérieur de l’archive jusqu’au chemin suivant :
-
-```text
-Assets.zip\Server\Languages\fr-FR
-```
-
-3. Remplacez le fichier **`server.lang`** existant par celui fourni dans ce dépôt
-4. Sauvegardez l’archive ZIP
-
-✅ La partie serveur du patch est maintenant installée !
-
----
 
 ## ▶️ Finalisation
 
@@ -121,5 +84,6 @@ Hytale et tous les éléments associés sont la propriété de leurs détenteurs
 ## ❤️ Remerciements
 
 Merci à tous ceux qui soutiennent la communauté francophone de Hytale et contribuent à rendre le jeu plus accessible !
+Merci à [h3pha](https://github.com/h3pha) pour avoir partagé le tips du coté serveur
 
 Bon jeu à tous ! 🎮🇫🇷
