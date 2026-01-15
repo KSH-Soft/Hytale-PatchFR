@@ -45,7 +45,7 @@ A Noter: Le script téléchargera la dernière version du Patch FR à chaque lan
 #### 🔧 Étapes d’installation
 
 1. **Fermez Hytale** s’il est en cours d’exécution
-2. **Téléchargez** le script [`HytalePatchFR_ByKSH-Soft.bat`](https://github.com/KSH-Soft/Hytale-PatchFR/releases/download/v0.1/HytalePatchFR_ByKSH-Soft.bat)
+2. **Téléchargez** le script [`HytalePatchFR_ByKSH-Soft.bat`](https://github.com/KSH-Soft/Hytale-PatchFR/releases/download/v0.2/HytalePatchFR_ByKSH-Soft.bat)
 3. **Lancez** le script, et suivez les étapes
 
 ✅ Le patch est maintenant installée !
