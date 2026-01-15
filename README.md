@@ -59,7 +59,6 @@ Une fois les deux parties installées :
 
 * 🔁 **Relancez votre jeu**
 * ⚙️ Allez dans les **paramètres** et sélectionnez **Français** comme langue
-* 🌐 **Relancez votre serveur** si nécessaire
 
 🎉 Profitez de Hytale en français !
 
