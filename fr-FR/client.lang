@@ -909,7 +909,7 @@ Choisissez simplement l'un des outils dans le menu ci-dessus pour commencer.
 
 contentCreation.actionButton.toggleBlockEditingTools = Toggle Outils d'édition de blocs
 
-contentCreation.notification.noBlockTargeted = Vous devez cibler un bloc pour l'ouvrir dans l'éditeur d'actifs.
+contentCreation.notification.noBlockTargeted = Vous devez cibler un bloc pour l'ouvrir dans l'éditeur d'assets.
 
 # Blockbench Modals
 contentCreation.modal.blockbench.installRequired.title = Installation de Blockbench requise
@@ -923,7 +923,7 @@ contentCreation.modal.blockbench.launchFailed.text = Blockbench a été trouvé 
 
 contentCreation.navigation.assets = Assets
 
-contentCreation.navigation.assetEditor = Éditeur d'actifs
+contentCreation.navigation.assetEditor = Éditeur d'assets
 contentCreation.navigation.assetEditor.tooltipTitle = Lancer l'application Asset Editor
 contentCreation.navigation.assetEditor.tooltipDesc = Cela lance un programme externe qui vous permet de modifier en direct les ressources de configuration du jeu.
 contentCreation.navigation.blockbench = Editeur de modèles
@@ -1590,7 +1590,7 @@ mainMenu.worlds.modType.plugin = Plugin
 mainMenu.assetEditor.errorModal.missingDirectory.title = Sélectionnez un répertoire
 mainMenu.assetEditor.errorModal.missingDirectory.text = Vous devez définir un chemin d'accès aux ressources avant d'utiliser l'éditeur de ressources
 mainMenu.assetEditor.errorModal.invalidDirectory.title = Répertoire invalide
-mainMenu.assetEditor.errorModal.invalidDirectory.text = Le répertoire sélectionné pour l'éditeur d'assets ne ressemble pas à un répertoire d'actifs valide. Les dossiers Common et Server sont requis
+mainMenu.assetEditor.errorModal.invalidDirectory.text = Le répertoire sélectionné pour l'éditeur d'assets ne ressemble pas à un répertoire d'assets valide. Les dossiers Common et Server sont requis
 mainMenu.assetEditor.errorModal.openSettingsButton = Ouvrir les paramètres
 
 # Early Access Panel
@@ -2260,5 +2260,6 @@ feedback.success.submitMore = Soumettre plus
 
 
 bugReportButton.tooltip = Signaler un bug ou faire un commentaire
+
 
 
