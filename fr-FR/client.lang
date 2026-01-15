@@ -1568,9 +1568,9 @@ mainMenu.worlds.settings.applyWorldSettings = Appliquer les paramètres
 mainMenu.worlds.settings.restoreSettings = Restaurer les valeurs par défaut
 mainMenu.worlds.settings.deathPenalty = [TMP] Pénalité d'inventaire en cas de décès
 mainMenu.worlds.settings.deathPenalty.tooltip = [TMP] Définit la pénalité d'inventaire à appliquer à la mort du joueur.\n\
-<b><color is = "#f1ba50">Aucun</color></b> : Le joueur ne lâchera pas d'objets à sa mort.\n\
-<b><color is = "#f1ba50">Tout laisser tomber</color></b> : le joueur laissera tomber tous ses objets d'inventaire à sa mort.\n\
-<b><color is = "#f1ba50">Partial Drop</color></b> : le joueur ne lâchera que les objets configurés pour tomber à la mort d'une certaine quantité.
+<b><color is="#f1ba50">Aucun</color></b> : Le joueur ne lâchera pas d'objets à sa mort.\n\
+<b><color is="#f1ba50">Tout laisser tomber</color></b> : le joueur laissera tomber tous ses objets d'inventaire à sa mort.\n\
+<b><color is="#f1ba50">Partial Drop</color></b> : le joueur ne lâchera que les objets configurés pour tomber à la mort d'une certaine quantité.
 mainMenu.worlds.settings.resourceLoss = [TMP] % de perte de ressources en cas de décès
 mainMenu.worlds.settings.durabilityLoss = [TMP] % de perte de durabilité en cas de décès
 mainMenu.worlds.settings.deathPenaltyNone = [TMP] Aucun
@@ -1877,9 +1877,9 @@ settings.renderScale = Échelle de rendu
 settings.renderScale.description = Le pourcentage de la résolution de l'écran auquel le jeu sera rendu.
 settings.placementPreview = Aperçu du placement des blocs
 settings.placementPreview.description = Définit pour quels types de blocs un aperçu du placement sera affiché (lorsque vous tenez un bloc en main).\n\
-<b><color is = "#f1ba50">Aucun</color></b> : L'aperçu ne sera jamais affiché.\n\
-<b><color is = "#f1ba50">Tous</color></b> : L'aperçu sera affiché pour n'importe quel bloc.\n\
-<b><color is = "#f1ba50">Multipart</color></b> : L'aperçu ne sera affiché que pour les blocs plus grands qu'un seul bloc.
+<b><color is="#f1ba50">Aucun</color></b> : L'aperçu ne sera jamais affiché.\n\
+<b><color is="#f1ba50">Tous</color></b> : L'aperçu sera affiché pour n'importe quel bloc.\n\
+<b><color is="#f1ba50">Multipart</color></b> : L'aperçu ne sera affiché que pour les blocs plus grands qu'un seul bloc.
 settings.placementPreview.none = Aucun
 settings.placementPreview.all = Tous
 settings.placementPreview.multipart = En plusieurs parties
@@ -1906,7 +1906,7 @@ settings.hideHeldItem.description = Cachez l'objet que vous tenez dans votre mai
 settings.maxChatMessages = Nombre maximum de messages de discussion
 settings.maxChatMessages.description = Détermine le nombre maximum de messages à conserver dans le chat.
 settings.cameraBasedFlying = Vol relatif à la caméra
-settings.cameraBasedFlying.description = Définit le comportement du vol.\n<b><color is = "#f1ba50">Activé</color></b> : vous vous déplacerez en fonction de l'endroit où vous regardez.\n<b><color is = "#f1ba50">Désactivé</color></b> : vous vous déplacerez toujours de la même manière, peu importe où vous regardez.
+settings.cameraBasedFlying.description = Définit le comportement du vol.\n<b><color is="#f1ba50">Activé</color></b> : vous vous déplacerez en fonction de l'endroit où vous regardez.\n<b><color is="#f1ba50">Désactivé</color></b> : vous vous déplacerez toujours de la même manière, peu importe où vous regardez.
 settings.showToolNotifications = Afficher les notifications d'outils
 settings.cameraShoulder = Épaule de la caméra
 settings.cameraShoulder.left = Gauche
@@ -1985,7 +1985,7 @@ settings.sfxVolume = Volume des effets sonores
 settings.ambientVolume = Volume d'ambiance
 settings.uiVolume = Volume de l'interface utilisateur
 settings.outputMode = Mode de sortie
-settings.outputMode.description = Contrôle la configuration du canal de sortie audio.\n<b><color is = "#f1ba50">Par défaut</color></b> : sélectionne automatiquement la meilleure option pour le périphérique de sortie choisi.
+settings.outputMode.description = Contrôle la configuration du canal de sortie audio.\n<b><color is="#f1ba50">Par défaut</color></b> : sélectionne automatiquement la meilleure option pour le périphérique de sortie choisi.
 settings.outputMode.default = Défaut
 settings.outputMode.stereo = Stéréo (haut-parleurs)
 settings.outputMode.stereoHrtf = Stéréo (écouteurs)
@@ -2152,36 +2152,36 @@ settings.displayTempPrefix = Afficher les balises [TMP] sur le texte
 
 settings.armorItemsPickupLocation = Objets d'armure
 settings.armorItemsPickupLocation.description = Définit l'emplacement à prioriser lors du stockage des éléments lors du ramassage.\n\
-<b><color is = "#f1ba50">Hotbar</color></b> : Les nouveaux objets iront d'abord dans la hotbar, une fois pleins, ils iront dans l'inventaire.\n\
-<b><color is = "#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois pleins, ils iront dans la barre de raccourcis.
+<b><color is="#f1ba50">Hotbar</color></b> : Les nouveaux objets iront d'abord dans la hotbar, une fois pleins, ils iront dans l'inventaire.\n\
+<b><color is="#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois pleins, ils iront dans la barre de raccourcis.
 
 settings.weaponAndToolItemsPickupLocation = Articles d'armes et d'outils
 settings.weaponAndToolItemsPickupLocation.description = Définit l'emplacement à prioriser lors du stockage des éléments lors du ramassage.\n\
-<b><color is = "#f1ba50">Hotbar</color></b> : Les nouveaux objets iront d'abord dans la hotbar, une fois pleins, ils iront dans l'inventaire.\n\
-<b><color is = "#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois pleins, ils iront dans la barre de raccourcis.
+<b><color is="#f1ba50">Hotbar</color></b> : Les nouveaux objets iront d'abord dans la hotbar, une fois pleins, ils iront dans l'inventaire.\n\
+<b><color is="#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois pleins, ils iront dans la barre de raccourcis.
 
 settings.usableItemsPickupLocation = Articles utilisables
 settings.usableItemsPickupLocation.description = Définit l'emplacement à prioriser lors du stockage des éléments lors du ramassage.\n\
-<b><color is = "#f1ba50">Hotbar</color></b> : Les nouveaux objets iront d'abord dans la hotbar, une fois pleins, ils iront dans l'inventaire.\n\
-<b><color is = "#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois pleins, ils iront dans la barre de raccourcis.
+<b><color is="#f1ba50">Hotbar</color></b> : Les nouveaux objets iront d'abord dans la hotbar, une fois pleins, ils iront dans l'inventaire.\n\
+<b><color is="#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois pleins, ils iront dans la barre de raccourcis.
 
 settings.solidBlockItemsPickupLocation = Articles en blocs solides
 settings.solidBlockItemsPickupLocation.description = Définit l'emplacement à prioriser lors du stockage des éléments lors du ramassage.\n\
-<b><color is = "#f1ba50">Hotbar</color></b> : Les nouveaux objets iront d'abord dans la hotbar, une fois pleins, ils iront dans l'inventaire.\n\
-<b><color is = "#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois pleins, ils iront dans la barre de raccourcis.
+<b><color is="#f1ba50">Hotbar</color></b> : Les nouveaux objets iront d'abord dans la hotbar, une fois pleins, ils iront dans l'inventaire.\n\
+<b><color is="#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois pleins, ils iront dans la barre de raccourcis.
 
 settings.miscItemsPickupLocation = Articles divers
 settings.miscItemsPickupLocation.description = Définit l'emplacement à prioriser lors du stockage des éléments lors du ramassage.\n\
-<b><color is = "#f1ba50">Hotbar</color></b> : Les nouveaux objets iront d'abord dans la hotbar, une fois pleins, ils iront dans l'inventaire.\n\
-<b><color is = "#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois pleins, ils iront dans la barre de raccourcis.
+<b><color is="#f1ba50">Hotbar</color></b> : Les nouveaux objets iront d'abord dans la hotbar, une fois pleins, ils iront dans l'inventaire.\n\
+<b><color is="#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois pleins, ils iront dans la barre de raccourcis.
 
 settings.pickupLocation.hotbar = Barre de raccourcis
 settings.pickupLocation.storage = Inventaire
 
 settings.cameraBasedClimbing = Escalade par rapport à la caméra
 settings.cameraBasedClimbing.description = Définit le comportement de l'escalade.\n\
-<b><color is = "#f1ba50">Activé</color></b> : Lorsque vous appuyez vers l'avant, vous vous déplacerez en fonction de l'endroit où vous regardez.\n\
-<b><color is = "#f1ba50">Désactivé</color></b> : vous vous déplacerez toujours de la même manière, peu importe où vous regardez.
+<b><color is="#f1ba50">Activé</color></b> : Lorsque vous appuyez vers l'avant, vous vous déplacerez en fonction de l'endroit où vous regardez.\n\
+<b><color is="#f1ba50">Désactivé</color></b> : vous vous déplacerez toujours de la même manière, peu importe où vous regardez.
 
 settings.crouchBehavior = Comportement accroupi
 settings.sprintBehavior = Comportement de sprint
@@ -2256,6 +2256,7 @@ feedback.success.submitMore = Soumettre plus
 
 
 bugReportButton.tooltip = Signaler un bug ou faire un commentaire
+
 
 
 
