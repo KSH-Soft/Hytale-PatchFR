@@ -1906,9 +1906,7 @@ settings.hideHeldItem.description = Cachez l'objet que vous tenez dans votre mai
 settings.maxChatMessages = Nombre maximum de messages de discussion
 settings.maxChatMessages.description = Détermine le nombre maximum de messages à conserver dans le chat.
 settings.cameraBasedFlying = Vol relatif à la caméra
-settings.cameraBasedFlying.description = Définit le comportement du vol.\n\
-<b><color is = "#f1ba50">Activé</color></b> : vous vous déplacerez en fonction de l'endroit où vous regardez.\n\
-<b><color is = "#f1ba50">Désactivé</color></b> : vous vous déplacerez toujours de la même manière, peu importe où vous regardez.
+settings.cameraBasedFlying.description = Définit le comportement du vol.\n<b><color is = "#f1ba50">Activé</color></b> : vous vous déplacerez en fonction de l'endroit où vous regardez.\n<b><color is = "#f1ba50">Désactivé</color></b> : vous vous déplacerez toujours de la même manière, peu importe où vous regardez.
 settings.showToolNotifications = Afficher les notifications d'outils
 settings.cameraShoulder = Épaule de la caméra
 settings.cameraShoulder.left = Gauche
@@ -1963,8 +1961,7 @@ settings.depthBuffer.high = Haut
 settings.depthBuffer.description = Contrôle la précision de la profondeur de l'image rendue. L’utilisation d’un tampon de profondeur de plus grande précision peut aider à réduire le scintillement des objets au loin.
 
 settings.joinCameraPref = Préférence de caméra (à l'apparition)
-settings.joinCameraPref.description = Quel POV de caméra est préférable lorsque vous rejoignez un monde.\n\
-Les serveurs peuvent ignorer cela !
+settings.joinCameraPref.description = Quel POV de caméra est préférable lorsque vous rejoignez un monde.\nLes serveurs peuvent ignorer cela !
 settings.joinCameraPref.first = Première personne
 settings.joinCameraPref.third = Troisième personne
 settings.joinCameraPref.lastUsed = Mémoriser la dernière utilisation
@@ -1988,8 +1985,7 @@ settings.sfxVolume = Volume des effets sonores
 settings.ambientVolume = Volume d'ambiance
 settings.uiVolume = Volume de l'interface utilisateur
 settings.outputMode = Mode de sortie
-settings.outputMode.description = Contrôle la configuration du canal de sortie audio.\n\
-<b><color is = "#f1ba50">Par défaut</color></b> : sélectionne automatiquement la meilleure option pour le périphérique de sortie choisi.
+settings.outputMode.description = Contrôle la configuration du canal de sortie audio.\n<b><color is = "#f1ba50">Par défaut</color></b> : sélectionne automatiquement la meilleure option pour le périphérique de sortie choisi.
 settings.outputMode.default = Défaut
 settings.outputMode.stereo = Stéréo (haut-parleurs)
 settings.outputMode.stereoHrtf = Stéréo (écouteurs)
@@ -2260,6 +2256,7 @@ feedback.success.submitMore = Soumettre plus
 
 
 bugReportButton.tooltip = Signaler un bug ou faire un commentaire
+
 
 
 
