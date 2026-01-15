@@ -1841,7 +1841,7 @@ settings.graphicsPreset.high = Haut
 settings.graphicsPreset.high.description = Donne la priorité à la fidélité plutôt qu’à la performance.
 settings.graphicsPreset.epic = Épique
 settings.graphicsPreset.epic.description = La qualité avant tout.
-settings.graphicsPreset.custom = Coutume
+settings.graphicsPreset.custom = Personnalisé
 settings.maximized = Maximisé
 settings.vsync = Synchronisation V
 settings.vsync.description = L'activation de V-Sync limitera le nombre d'images par seconde au taux de rafraîchissement de votre moniteur.
@@ -2256,6 +2256,7 @@ feedback.success.submitMore = Soumettre plus
 
 
 bugReportButton.tooltip = Signaler un bug ou faire un commentaire
+
 
 
 
