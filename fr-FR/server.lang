@@ -3428,7 +3428,7 @@ general.qualities.Uncommon = Rare
 general.qualities.Rare = Rare
 general.qualities.Epic = Épique
 general.qualities.Legendary = Légendaire
-general.qualities.Developer = Promoteur
+general.qualities.Developer = Développeur
 general.qualities.Default = Défaut
 general.qualities.Tool = Outil
 general.qualities.Technical = Technique
@@ -7826,6 +7826,7 @@ universe.backup.error = Une erreur s'est produite lors de la création d'une sau
 
 world.spawn.notSet = Le monde '{worldName}' n'a pas de point d'apparition défini !
 world.notFound = Impossible de trouver le monde '{worldName}' !
+
 
 
 
