@@ -8,11 +8,12 @@
 # Hytale et tous les éléments associés sont la propriété de leurs détenteurs respectifs.
 
 # Configuration
-VERSION="0.2"
+VERSION="0.3"
 # Chemin basé sur votre demande (Flatpak standard)
 DEFAULT_ROOT="$HOME/.var/app/com.hypixel.HytaleLauncher/data/Hytale"
 # On ajoute la structure interne standard du jeu
-TARGET_PATH="$DEFAULT_ROOT/install/release/package/game/latest/Client/Data/Shared/Language/fr-FR"
+# TARGET_PATH="$DEFAULT_ROOT/install/release/package/game/latest/Client/Data/Shared/Language/fr-FR"
+TARGET_PATH="$DEFAULT_ROOT/install/release/package/game/latest/Client/Data/Shared/Language"
 
 # Dossiers de travail (Norme XDG Linux : ~/.local/share)
 KSHSOFT_FOLDER="$HOME/.local/share/KSH-SOFT/HytalePatchFR"
@@ -58,17 +59,17 @@ if [ ! -d "$TARGET_PATH" ]; then
     echo -e "${RED}Erreur : le dossier par défaut n'existe pas ou le chemin a changé.${NC}"
     echo "Chemin testé : $TARGET_PATH"
     echo ""
-    echo "Merci de sélectionner votre dossier 'fr-FR'"
-    echo "Il se trouve généralement dans 'Data/Shared/Language/fr-FR' de votre jeu."
+    echo "Merci de selectionner votre dossier 'Language'"
+    echo "Il se trouve généralement dans 'Data/Shared/Language' de votre jeu."
     echo ""
     read -n 1 -s -r -p "Appuyez sur une touche pour sélectionner le dossier..."
     echo ""
 
     # Tentative d'utilisation de Zenity (GUI) sinon fallback en ligne de commande
     if command -v zenity &> /dev/null; then
-        SELECTED_FOLDER=$(zenity --file-selection --directory --title="Sélectionnez le dossier fr-FR")
+        SELECTED_FOLDER=$(zenity --file-selection --directory --title="Selectionnez votre dossier Language")
     else
-        echo "Entrez le chemin complet vers le dossier fr-FR :"
+        echo "Entrez le chemin complet vers le dossier 'Language' :"
         read -e SELECTED_FOLDER
     fi
 
@@ -116,9 +117,12 @@ download_file "server.lang" "$BASE_URL/server.lang"
 echo -e "${YELLOW}Installation du Patch FR...${NC}"
 echo ""
 
-DEST_FILE1="$TARGET_PATH/meta.lang"
-DEST_FILE2="$TARGET_PATH/client.lang"
-DEST_FILE3="$TARGET_PATH/server.lang"
+DEST_DIR="$TARGET_PATH/fr-FR"
+[ ! -d "$DEST_DIR" ] && mkdir -p "$DEST_DIR"
+
+DEST_FILE1="$DEST_DIR/meta.lang"
+DEST_FILE2="$DEST_DIR/client.lang"
+DEST_FILE3="$DEST_DIR/server.lang"
 
 # Backup (mv fonctionne comme move)
 if [ -f "$DEST_FILE1" ]; then mv "$DEST_FILE1" "$KSHSOFT_FOLDER/meta_Backup_$MYDATE.lang"; fi

@@ -5,8 +5,9 @@ Rem ---------------------- Copyright ----------------------------------
 REM Ce projet est non officiel et n’est pas affilie à Hypixel Studios.
 REM Hytale et tous les elements associes sont la propriete de leurs detenteurs respectifs.
 @echo off
-SET "version=0.2"
-SET "locHytale=C:\Users\%USERNAME%\AppData\Roaming\Hytale\install\release\package\game\latest\Client\Data\Shared\Language\fr-FR"
+SET "version=0.3"
+REM SET "locHytale=C:\Users\%USERNAME%\AppData\Roaming\Hytale\install\release\package\game\latest\Client\Data\Shared\Language\fr-FR"
+SET "locHytale=C:\Users\%USERNAME%\AppData\Roaming\Hytale\install\release\package\game\latest\Client\Data\Shared\Language"
 REM ## DATE Gen ##
 for /f %%i in ('wmic os get localdatetime ^| find "."') do set dt=%%i
 set mydate=%dt:~0,8%_%dt:~8,6%
@@ -27,14 +28,14 @@ GOTO FolderOK
 :NeedFolder
 echo Erreur : le dossier "%locHytale%" n'existe pas.
 echo.
-echo Merci de selectionner votre dossier 'fr-FR'
-echo Qui se trouve en general dans le dossier 'Data\Shared\Language\fr-FR' de votre jeu.
+echo Merci de selectionner votre dossier 'Language'
+echo Qui se trouve en general dans le dossier 'Data\Shared\Language' de votre jeu.
 echo.
 pause
 echo.
 set "vbsfile=%temp%\SelectFolder.vbs"
 echo Set objShell = CreateObject("Shell.Application")>"%vbsfile%"
-echo Set objFolder = objShell.BrowseForFolder(0, "Select your fr-FR folder:", ^&H1^&)>>"%vbsfile%"
+echo Set objFolder = objShell.BrowseForFolder(0, "Selectionnez votre dossier 'Language':", ^&H1^&)>>"%vbsfile%"
 echo If Not objFolder Is Nothing Then>>"%vbsfile%"
 echo     WScript.Echo objFolder.Self.Path>>"%vbsfile%"
 echo End If>>"%vbsfile%"
@@ -56,22 +57,6 @@ pause
 GOTO FolderOK
 
 :FolderOK
-REM IF NOT EXIST "%locHytale%" (
-	REM echo Erreur : le dossier "%locHytale%" n'existe pas.
-	REM echo.
-	REM echo Merci Selectionnez votre dossier 'fr-FR'
-	REM echo Qui se trouve en generalement dans le dossier 'Data\Shared\Language\fr-FR' de votre jeu.
-	REM echo.
-	REM pause
-    REM call :FolderBrowser
-	REM SET "locHytale=%folder%"
-	REM echo %folder%
-	REM pause
-	REM pause
-	REM pause
-	REM pause
-REM )
-
 SET KSHSOFT_FOLDER=%appdata%\KSH-SOFT\HytalePatchFR
 SET TEMP_FOLDER=%appdata%\KSH-SOFT\HytalePatchFR\TMP
 IF NOT EXIST "%KSHSOFT_FOLDER%" mkdir "%KSHSOFT_FOLDER%"
@@ -109,10 +94,12 @@ IF %ERRORLEVEL% NEQ 0 (
 echo Installation du Patch FR...
 echo.
 
-SET "DEST_FILE1=%locHytale%\%FILE_NAME1%"
-echo %DEST_FILE1%
-SET "DEST_FILE2=%locHytale%\%FILE_NAME2%"
-SET "DEST_FILE3=%locHytale%\%FILE_NAME3%"
+SET "DEST_FILE=%locHytale%\fr-FR"
+IF NOT EXIST "%DEST_FILE%" MKDIR "%DEST_FILE%"
+
+SET "DEST_FILE1=%locHytale%\fr-FR\%FILE_NAME1%"
+SET "DEST_FILE2=%locHytale%\fr-FR\%FILE_NAME2%"
+SET "DEST_FILE3=%locHytale%\fr-FR\%FILE_NAME3%"
 
 MOVE /Y "%DEST_FILE1%" "%KSHSOFT_FOLDER%\meta_Backup_%mydate%.lang"
 MOVE /Y "%DEST_FILE2%" "%KSHSOFT_FOLDER%\client_Backup_%mydate%.lang"
