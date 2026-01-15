@@ -483,7 +483,7 @@ builderTools.tools.Paint.args.TreesTypes.values.Ash_twisted_Large = Frêne torsa
 builderTools.tools.Paint.args.TreesTypes.values.Aspen = Tremble
 builderTools.tools.Paint.args.TreesTypes.values.Autumn = Automne
 builderTools.tools.Paint.args.TreesTypes.values.Autumn_Stumps = Les souches d'automne
-builderTools.tools.Paint.args.TreesTypes.values.Azure = Azuré
+builderTools.tools.Paint.args.TreesTypes.values.Azure = Azure
 builderTools.tools.Paint.args.TreesTypes.values.Bamboo = Bambou
 builderTools.tools.Paint.args.TreesTypes.values.Beech = Hêtre
 builderTools.tools.Paint.args.TreesTypes.values.Beech_Dry = Hêtre Sec
@@ -6384,9 +6384,9 @@ items.Wood_Aspen_Trunk_Full.name = Tronc de tremble
 items.Wood_Azure_Branch_Corner.name = Branche Azure - Coin
 items.Wood_Azure_Branch_Long.name = Branche Azure - Longue
 items.Wood_Azure_Branch_Short.name = Branche Azure - Court
-items.Wood_Azure_Roots.name = Racines azur
-items.Wood_Azure_Trunk.name = Journal Azure
-items.Wood_Azure_Trunk_Full.name = Tronc d'arbre azur
+items.Wood_Azure_Roots.name = Racines Azure
+items.Wood_Azure_Trunk.name = Tronc Azure
+items.Wood_Azure_Trunk_Full.name = Tronc d'arbre Azure
 items.Wood_Bamboo_Branch_Long.name = Branche de Bambou - Longue
 items.Wood_Bamboo_Branch_Long_Deco.name = Branche de Bambou - Longue
 items.Wood_Bamboo_Trunk.name = Bûche de bambou
@@ -7826,6 +7826,7 @@ universe.backup.error = Une erreur s'est produite lors de la création d'une sau
 
 world.spawn.notSet = Le monde '{worldName}' n'a pas de point d'apparition défini !
 world.notFound = Impossible de trouver le monde '{worldName}' !
+
 
 
 
