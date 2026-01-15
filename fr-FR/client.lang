@@ -2186,7 +2186,7 @@ settings.cameraBasedClimbing.description = Définit le comportement de l'escalad
 settings.crouchBehavior = Comportement accroupi
 settings.sprintBehavior = Comportement de sprint
 settings.walkBehavior = Comportement de marche
-settings.inputMode.hold = Prise
+settings.inputMode.hold = Maintenir
 settings.inputMode.toggle = Basculer
 
 settings.resetToDefaultsConfirmationModal.title = Réinitialiser les paramètres
@@ -2256,6 +2256,7 @@ feedback.success.submitMore = Soumettre plus
 
 
 bugReportButton.tooltip = Signaler un bug ou faire un commentaire
+
 
 
 
