@@ -86,6 +86,6 @@ Merci à tous ceux qui soutiennent la communauté francophone de Hytale et contr
 
 Merci à [h3pha](https://github.com/h3pha) pour avoir partagé le tips du coté serveur. ❤️
 
-Merci à Zutyosh pour avoir réalisé le portage Linux. ❤️
+Merci à [Zutyosh](https://github.com/Zutyosh) pour avoir réalisé le portage Linux. ❤️
 
 Bon jeu à tous ! 🎮🇫🇷
