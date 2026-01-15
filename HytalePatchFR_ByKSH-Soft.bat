@@ -5,21 +5,11 @@ Rem ---------------------- Copyright ----------------------------------
 REM Ce projet est non officiel et n’est pas affilie à Hypixel Studios.
 REM Hytale et tous les elements associes sont la propriete de leurs detenteurs respectifs.
 @echo off
-SET "version=0.1"
+SET "version=0.2"
 SET "locHytale=C:\Users\%USERNAME%\AppData\Roaming\Hytale\install\release\package\game\latest\Client\Data\Shared\Language\fr-FR"
 REM ## DATE Gen ##
-for /f "tokens=1-3 delims=/:. " %%a in ("%date%") do (
-    set "d=%%a"
-    set "m=%%b"
-    set "y=%%c"
-)
-for /f "tokens=1-3 delims=:.," %%a in ("%time%") do (
-    set "hh=%%a"
-    set "mi=%%b"
-    set "ss=%%c"
-)
-if 1%hh% LSS 110 set "hh=0%hh%"
-set "mydate=%y%%m%%d%_%hh%%mi%%ss%"
+for /f %%i in ('wmic os get localdatetime ^| find "."') do set dt=%%i
+set mydate=%dt:~0,8%_%dt:~8,6%
 REM ##############
 
 cls
