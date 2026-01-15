@@ -84,6 +84,7 @@ Hytale et tous les éléments associés sont la propriété de leurs détenteurs
 
 Merci à tous ceux qui soutiennent la communauté francophone de Hytale et contribuent à rendre le jeu plus accessible !
 
-Merci à [h3pha](https://github.com/h3pha) pour avoir partagé le tips du coté serveur
+Merci à [h3pha](https://github.com/h3pha) pour avoir partagé le tips du coté serveur. ❤️
+Merci à Zutyosh pour avoir réalisé le portage Linux. ❤️
 
 Bon jeu à tous ! 🎮🇫🇷
